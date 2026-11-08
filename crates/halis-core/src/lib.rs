@@ -1,0 +1,1 @@
+//! Halis core crate.
