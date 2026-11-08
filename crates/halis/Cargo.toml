@@ -1,0 +1,21 @@
+[package]
+name = "halis"
+description = "Halis — a coding agent for your terminal"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "halis"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+futures-util.workspace = true
+halis-core = { path = "../halis-core" }
+tokio.workspace = true
+tokio-util.workspace = true
+tracing-subscriber.workspace = true
